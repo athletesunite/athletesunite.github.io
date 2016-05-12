@@ -7,11 +7,36 @@
 body {
     width: 100%;
     height: 100%;
+    text-align:center;
+    min-height:468px;/* for good browsers*/
+    min-width:552px;/* for good browsers*/
 }
 
 html {
     width: 100%;
     height: 100%;
+}
+
+#outer{
+    height:100%;
+    width:100%;
+    display:table;
+    vertical-align:middle;
+}
+#container {
+    text-align: center;
+    position:relative;
+    vertical-align:middle;
+    display:table-cell;
+    height: 468px;
+}
+#inner {
+    width: 552px;
+    height: 468px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 @media(min-width:767px) {
@@ -33,55 +58,70 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 7.5%;
     text-align: center;
-    background: url(../images/introbackground.jpg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url(../images/introbackground.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
-.center {
-    line-height: 45px;
-    position: absolute;
-    text-align: center;
-    margin-top: 225px;
+/*.center {
+    position: absolute;;
     top: 50%;
-    width: 100%;
-}
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}*/
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 5%;
     text-align: center;
-    background: url(../images/aboutbackground.jpg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url(../images/aboutbackground.jpg) no-repeat center center fixed;
+    background-size: cover;;
 }
 
 .services-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 5%;
     text-align: center;
-    background: url(../images/portfoliobackground.jpg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url(../images/portfoliobackground.jpg) no-repeat center center fixed;
+    background-size: cover;;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 5%;
     text-align: center;
-    background: url(../images/contactbackground.jpg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background: url(../images/contactbackground.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 10vmin;
     font-weight: 700;
     color: #FFF;
 }
 
 p1 {
     color: #FFF;
-    font-size: 2em;
+    font-size: 5vmin;
     font-weight: 300;
 }
 
 p2 {
     color: #FFF;
-    font-size: 2em;
+    font-size: 5vmin;
     font-weight: 300;
 }
 
@@ -110,9 +150,6 @@ p2 {
     font-size: 30px;
 }
 
-.navbar {
-    margin-left: -450px;
-}
 
 .navbar-nav {
     font-size: 20px;
