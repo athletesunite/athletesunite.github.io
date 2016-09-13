@@ -113,6 +113,12 @@ h1 {
     color: #FFF;
 }
 
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
 p1 {
     color: #FFF;
     font-size: 5vmin;
@@ -153,4 +159,22 @@ p2 {
 
 .navbar-nav {
     font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+.btn-responsive {
+  padding:2px 4px;
+  font-size:80%;
+  line-height: 1;
+  border-radius:3px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+.btn-responsive {
+  padding:4px 9px;
+  font-size:90%;
+  line-height: 1.2;
+}
 }
