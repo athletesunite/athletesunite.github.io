@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -13,164 +13,148 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-    <!-- DC Social Icons CSS -->
-    <link rel="stylesheet" type="text/css" href="dreamcodes/social_icons/tsc_social_icons.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">David Tran</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#bio">Bio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id = "outer">
-                        <div id = "container-fluid">
-                            <div id = "inner">
-                                <h1>David Tran</h1>
-                                <p1><strong>GT-CS-19 <br></strong></p1>
-                                <a class="btn btn-default page-scroll" href="#bio">Bio</a>
-                                <a class="btn btn-default page-scroll" href="#portfolio">Portfolio</a>
-                                <a class="btn btn-default page-scroll" href="#contact">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="bio" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Hi, I'm David</h1>
-                    <!-- <img src="url" alt="me"><img> -->
-                    <p2>Current sophomore at Georgia Tech pursuing a bachelors in Computer Science, concentrating in Information Internetworks and Intelligence. Trying to find my passions through exploration. I also enjoy helping others. <br>
-                         <br><br><br></p2>
-                        <!--  <a class="btn btn-default page-scroll" href="#portfolio">PORTFOLIO</a> -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="portfolio" class="services-section">
+    <canvas id="space"></canvas>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Portfolio</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class = "col-xs-6">
-                                <p2> Chatterbox </p2>
-                            </div>
-                            <div class = "col-xs-6">
-                                <p2>Lane Detection Algorithm Manuscript</p2>
-                            </div>
-                        </div>
+            <div class="row-fluid text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h1>David Tran</h1>
+                    <div class="pages">
+                        <a href="#portfolio">Porfolio</a> |
+                        <a href="https://drive.google.com/file/d/0B7bOnmQhVtyud2pseUVwNkw3c1k/view?usp=sharing">Resume</a> |
+                        <a href="#contact">Contact</a>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class = "col-xs-6">
-                            <a href="https://github.com/davidjtran/ionic-chat---bootcamp"> <img src="images\chatterbox.png" alt="chatterbox" height="300" width="220"><br><br></a>
-                            </div>
-                            <div class = "col-xs-6">
-                                <br>
-                         <a href="https://www.researchgate.net/publication/289272436_VISUAL_LANE_DETECTION_ALGORITHM_USING_THE_PERSPECTIVE_TRANSFORM"><img src = "images\resume2.png" alt="paper"></img><a>
-                        </div>
+                    <div class="row text-center">
+                      <h2>Hi I'm David, a second year <b>Computer Science</b> student at the <b>Georgia Institute of Technology</b>.<br><br>
+                          I research at the <b>Contextualized Support for Learning Lab</b>, and I am an Officer of <b>Humani-Tech</b>, a club focused on computing and community service.<br><br>
+                      <b>Very interested</b> in data science, artificial intelligence, security, software engineering and computing for social good.<br><br>
+                        <b> Looking for an internship for Summer 2017 :) </b></h2>
                     </div>
-                </div>
-                <!-- <a class="btn btn-default page-scroll" href="#contact">CONTACT</a> -->
                 </div>
             </div>
         </div>
-    </section>
+    </canvas>
+    <div class="page2">
+        <div id="portfolio" class="services-section">
+            <h3 class="text-center"><u>Portfolio</u></h3>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Me</h1>
-                    <p2> Email: david.tran456@gmail.com <br><br></p2>
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h4>Move Up</h4>
 
-                    <p2> Resume: </p2><a href="https://drive.google.com/file/d/0B7bOnmQhVtyud2pseUVwNkw3c1k/view?usp=sharing"> <img src="images\resume.png" alt="resume" /><br><br></a>
-                    <p2> GitHub: </p2><a href="https://github.com/davidjtran"> <img src="images\GitHub-Mark\PNG\GitHub-Mark-120px-plus.png" alt="github"><br><br></a>
-                    &nbsp;
-                    <p2> LinkedIn: </p2><a href="https://www.linkedin.com/in/davidjtran"> <img src="images\LinkedIn [in] for Screen\Black\In-Black-108px-R.png" alt="linkedinicon" /><br><br></a>
-                    &nbsp;
+                        <div class="image-container">
+                            <img src="img/moveup.png" height=420 width=880>
+                            <div class="hover-text">
+                                <a href="https://github.com/kexin-zhang/hack-duke">Go to Source Code!<br>
+                                <img src="img/GitHub-Mark.png" height=100 width=100>
+                                </a>
+                            </div>
+                        </div>
 
-
-
-                    <!-- <a class="btn btn-default page-scroll" href="#intro">TOP</a> -->
+                        <p id="project-cell">Move Up was my team's submission at HackDuke. The app uses an interactive county map of the United States to help search for areas with the highest social mobility. The app also displays information on affordable housing options in the area. It was built using Esri API, React, and Leaflet.JS.<br><br>
+                        We won best use of the Esri Platform.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- jQuery -->
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h4>Clean Water Resources</h4>
+
+                        <div class="image-container">
+                            <img src="img/waterresources.png" height=400 width=800>
+                            <div class="hover-text">
+                                <a href="https://github.com/davidjtran/waterresourcesandroid">Go to Android Source Code!<br>
+                                <img src="img/GitHub-Mark.png" height=100 width=100>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p id="project-cell">This application helps users allocate safe and clean water resources within their local communities through crowdsourcing. This app was written in Android using the Google Maps and GraphView API, complete with login system and manager/worker support tools.<br> I loved this app so much it was also made into a desktop application. Source code can be found <a href="https://github.com/RheaChatterjee/TCM2340"><b>here</b></a>!<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h4>GT Red Cross Association Website</h4>
+
+                        <div class="image-container">
+                            <img src="img/gtredcross.png" height=420 width=880>
+                            <div class="hover-text">
+                                <a href="http://www.redcross.gtorg.gatech.edu/">New site will be up soon!<br>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p id="project-cell">I worked as a project leader/manager for one of our new recruit projects for Humani-Tech. I acquainted new members and managed them through their first project. I worked on redesigning the front-end of the site and managing the site through Georgia Tech servers.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h4>Autonomous Cars and Solar Trackers</h4>
+
+                        <div class="image-container">
+                            <img src="img/solartracker.png" height=420 width=880>
+                            <div class="hover-text">
+                                <a href="https://www.researchgate.net/publication/289272436_VISUAL_LANE_DETECTION_ALGORITHM_USING_THE_PERSPECTIVE_TRANSFORM">Read the Publication on Lane Detection Algorithms!<br>This picture is the model for the solar tracker I helped make.<br>
+                                <img src="img/text-document.png" height=65 width=50>
+                                </a>
+
+                                <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+                            </div>
+                        </div>
+
+                        <p id="project-cell"> I researched and worked alongside a team at Kennesaw State University where we developed a unique solar tracking system. I was in charge of designing, modeling, and building the mechanical mechanism that would drive the solar tracker.<br>
+                            During my time I also assisted Dr. Kevin McFall publish his work on a lane detection alogorithm for autonomous vehicles. Read the manuscript
+                             <a href="https://www.researchgate.net/publication/289272436_VISUAL_LANE_DETECTION_ALGORITHM_USING_THE_PERSPECTIVE_TRANSFORM"><b>here</b></a>!<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="page3">
+                    <div id="contact" class="services-section">
+                        <h3 class="text-center"><u>Contact</u></h3>
+                        <div id="menu">
+                          <ul class="text-center">
+                            <li><a href="https://github.com/davidjtran">
+                                <img src="img/GitHub-Black.png" title="https://github.com/davidjtran "height="120" width="120"></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/davidjtran">
+                                <img src="img/linkedin.png" title="https://www.linkedin.com/in/davidjtran" height="100" width="100"></a>
+                            </li>
+                            <li>
+                                <a href="mailto:david.tran456@gmail.com">
+                                <img src="img/email.jpeg" title="david.tran456@gmail.com" height="100" width="100"></a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>
