@@ -48,13 +48,13 @@
 
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 5.75em;
+    font-size: 6em;
     color: #DCEDFF;
 }
 
 h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     padding-left: 20%;
     padding-right: 20%;
     color: #DCEDFF;
@@ -101,13 +101,13 @@ body {
 .pages a {
     color: #DCEDFF;
     text-decoration: none !important;
-    font-size: 1.5em;
+    font-size: 36px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pages {
     color: #CBCBCB;
-    font-size: 1.5em;
+    font-size: 36px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
