@@ -1,20 +1,19 @@
 @media (max-width: 480px)  {
     h1 {
-        font-size: 1.0em !important;
+        font-size: 1.5em !important;
         padding: 0;
-        margin-top: -10%;
     }
     h2 {
         font-size: .5em !important;
         width: 100%;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
     }
     h3 {
-        font-size: 1.0em !important;
+        font-size: 1.5em !important;
     }
     h4 {
-        font-size: 1.0em !important;
+        font-size: 1.5em !important;
     }
 
     #project-cell {
