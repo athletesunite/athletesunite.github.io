@@ -1,22 +1,24 @@
-@media only screen and (max-device-width: 480px) {
-    .leftbox, .rightbox{
-        width:100%;
-        display:table-cell;
-        vertical-align:middle;
-        width:100%;
-        text-align:center;
-        padding:2%;
+@media (min-width: 0px)  {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.5em;
     }
 }
+
 h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 72px;
+    font-size: 5.75em;
     color: #DCEDFF;
 }
 
 h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     padding-left: 20%;
     padding-right: 20%;
     color: #DCEDFF;
@@ -24,7 +26,7 @@ h2 {
 
 h3 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 64px;
+    font-size: 4.75em;
     color: black;
 }
 
@@ -63,13 +65,13 @@ body {
 .pages a {
     color: #DCEDFF;
     text-decoration: none !important;
-    font-size: 36px;
+    font-size: 1.5em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .pages {
     color: #CBCBCB;
-    font-size: 36px;
+    font-size: 1.5em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
