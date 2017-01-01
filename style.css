@@ -1,0 +1,216 @@
+#header {
+    margin-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+
+body {
+    padding-top: 40px;
+}
+
+
+.navbar-brand p {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 900;
+
+}
+.navbar-brand p span {
+    color: #d86161;
+}
+
+#myNavbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+#myNavbar ul li a:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: #d86161;
+}
+
+#burgerbutton {
+    border: none;
+    margin-right: 10px;
+    color: grey;
+}
+
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-menu-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-menu-right {
+  right: 50%;
+  margin-right: -10px;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 500px;
+}
+
+#myCarousel {
+    position: relative;
+    z-index: 20;
+    -moz-box-shadow: 0px 4px 5px rgba(68,68,68,0.4);
+    -webkit-box-shadow: 0px 4px 5px rgba(68,68,68,0.4);
+    box-shadow: 0px 4px 5px rgba(68,68,68,0.4);
+}
+
+#subtitle p {
+    padding: 10px 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: #d86161;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 10px solid #ff9b9b;
+}
+
+.glyphicon.glyphicon-heart,
+.glyphicon.glyphicon-tint,
+.glyphicon.glyphicon-user {
+    font-size: 30px;
+}
+
+#summaries {
+    text-align: center;
+    background-color: #edf4f7;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 10px solid #f4f9fc
+}
+
+#summaries a {
+    color: #d86161;
+}
+
+#summaries div {
+    padding: 20px;
+}
+
+#summaries div:hover {
+    color: #b6514c;
+}
+
+#likeButton {
+    -webkit-filter: brightness(119%) saturate(0.95) hue-rotate(133deg);
+}
+
+#groupPicture p, #calendar p {
+    color: grey;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#groupPicture a {
+    color: #6e9cd8;
+}
+
+#groupPicture a:hover {
+    color: #2a64af;
+    text-decoration: none;
+}
+
+#groupPicture img {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen and (min-width: 767px) {
+  #calendar {
+      width: 40vw;
+      height: 35vw;
+  }
+}
+@media screen and (max-width: 767px) {
+    #calendar {
+        height: 80vw;
+    }
+}
+
+#calendar {
+    position: relative;
+    overflow: hidden;
+}
+
+#calendar iframe {
+    padding: 10px;
+    margin-top: 30px;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+
+#heading p {
+    padding: 10px 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: #d86161;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 10px solid #ff9b9b;
+    font-size: 3em;
+}
+
+#meetingInfo {
+    padding: 10px 20px;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 10px solid #ff9b9b;
+    font-size: 20px;
+}
+
+#titleOf {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#descrip {
+    margin-left: 40px;
+    color: black;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.20em;
+}
+
+#story {
+    margin-left: 40px;
+    color: black;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.vertical-center {
+  min-height: 75%;
+  min-height: 75vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.image-container{
+    text-align:center
+}
+
+.container{
+    overflow-y: hidden;
+}
