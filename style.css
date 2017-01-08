@@ -131,15 +131,22 @@ body {
       height: 35vw;
   }
 
-  #prov-opportunities {
-      margin-left: 0%;
-      margin-right: 0%;
-  }
 }
 
 @media screen and (max-width: 767px) {
     #calendar {
         height: 80vw;
+    }
+
+    .generic-text {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.20em;
+    }
+
+    #prov-opportunities {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
