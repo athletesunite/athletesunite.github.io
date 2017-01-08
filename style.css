@@ -141,12 +141,21 @@ body {
     .generic-text {
         color: black;
         font-family: 'Raleway', sans-serif;
-        font-size: 1.20em;
+        font-size: .75em;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     #prov-opportunities {
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    .generic-heading {
+        color: black;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: bolder;
     }
 }
 
@@ -234,8 +243,11 @@ body {
     font-size: 1.50em;
 }
 
-h1 {
-    font-size: 2.00em;
+.generic-heading {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
 }
 
 #prov-opportunities {
