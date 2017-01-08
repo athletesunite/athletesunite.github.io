@@ -141,14 +141,14 @@ body {
     .generic-text {
         color: black;
         font-family: 'Raleway', sans-serif;
-        font-size: .75em;
-        margin-left: 0%;
-        margin-right: 0%;
+        font-size: .75em !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
     }
 
     #prov-opportunities {
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
     }
 
     .generic-heading {
