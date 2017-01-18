@@ -1,10 +1,4 @@
-# RedCrossSite
-Red Cross Site squadron unite
+Personal Website using Bootstrap
 
-Navbar - Ellie
-
-One Day - Michael
-
-Get Involved - Sanjana
-
-Contact Us - Caroline
+Check it out at:
+https://davidjtran.github.io/
